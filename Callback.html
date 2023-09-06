@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Callback.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Reserva de Vuelos</h1>
+        <form id="flightForm">
+          <label for="origin">Origen:</label>
+          <select id="origin">
+            <option value="Nueva York">Nueva York</option>
+            <option value="Los Ángeles">Los Ángeles</option>
+            <option value="Chicago">Chicago</option>
+          </select>
+          
+          <label for="destination">Destino:</label>
+          <select id="destination">
+            <option value="Londres">Londres</option>
+            <option value="París">París</option>
+            <option value="Roma">Roma</option>
+          </select>
+          
+          <label for="departureDate">Fecha de Salida:</label>
+          <input type="date" id="departureDate">
+          
+          <button type="submit">Buscar Vuelos</button>
+        </form>
+        <div id="flightResults">
+          <!-- Los resultados se mostrarán aquí -->
+        </div>
+      </div>
+      <script src="Callback.js"></script>
+</body>
+</html>
