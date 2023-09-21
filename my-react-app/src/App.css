@@ -1,0 +1,43 @@
+.app {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(40, 167, 206);
+  }
+  
+  h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color:white;
+  }
+  
+  .button-container {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .loading {
+    color: #888;
+    font-style: italic;
+  }
+  
+  .data {
+    color: #008000;
+    font-weight: bold;
+  }
+  
+  .error {
+    color: #ff0000;
+    font-weight: bold;
+  }
+ 
+  
+  
+  
+  
